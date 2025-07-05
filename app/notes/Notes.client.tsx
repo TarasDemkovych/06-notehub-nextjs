@@ -5,7 +5,7 @@ import css from "./page.module.css";
 import NoteList from "@/components/NoteList/NoteList";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { useDebounce } from "use-debounce";
-import { fetchNotes, FetchNotesHTTPResponse } from "@/lib/api/client";
+import { fetchNotes, FetchNotesHTTPResponse } from "@/lib/api";
 import NoteModal from "@/components/NoteModal/NoteModal";
 import SearchBox from "@/components/SearchBox/SearchBox";
 import Loader from "@/components/Loader/Loader";

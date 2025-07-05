@@ -1,5 +1,5 @@
 import NotesClient from "./Notes.client";
-import { fetchNotes } from "@/lib/apiserver/server";
+import { fetchNotes } from "@/lib/api";
 
 export const revalidate = 5;
 
